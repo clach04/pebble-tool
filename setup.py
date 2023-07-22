@@ -22,6 +22,7 @@ requires = [
     'wheel==0.24.0',
     'colorama==0.3.3',
     'packaging==16.7',
+    'pyreadline==2.1',
 ]
 
 if sys.version_info < (3, 4, 0):
