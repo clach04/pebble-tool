@@ -1,4 +1,4 @@
-# Pebble build tool
+# Pebble Tool
 
 To install, from a checkout, issue:
 
