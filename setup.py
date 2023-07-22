@@ -25,6 +25,9 @@ requires = [
 
 if sys.version_info < (3, 4, 0):
     requires.append('enum34==1.0.4')
+if sys.version_info < (3, 0) and sys.platform.startswith('win'):
+    requires.insert(0, 'pyparsing==2.4.7')
+    requires.insert(0, 'pyreadline==2.1')
 
 __version__ = None  # Overwritten by executing version.py.
 with open('pebble_tool/version.py') as f:
